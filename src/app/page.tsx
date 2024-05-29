@@ -9,14 +9,14 @@ export default async function IndexPage() {
   const events = await sanityFetch<SanityDocument[]>({query: EVENTS_QUERY});
 
   return (
-    <main className="flex bg-gray-100 min-h-screen flex-col p-24 gap-12">
+    <main className="flex bg-black min-h-screen flex-col p-24 gap-12">
       <h1 className="text-4xl font-bold tracking-tighter">
         Events
       </h1>
       <ul className="grid grid-cols-1 gap-12 lg:grid-cols-2">
         {events.map((event) => (
           <li
-            className="bg-white p-4 rounded-lg"
+            className="bg-slate-900 p-4 rounded-lg"
             key={event._id}
           >
             <Link
