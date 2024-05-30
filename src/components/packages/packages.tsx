@@ -7,7 +7,7 @@ const Packages = () => {
 
 <>
 
-    <div className="flex gap-8 p-4 justify-center">
+    <div className="flex gap-8 p-4 pb-16 justify-center">
 
       <Service/>
       <Service/>
