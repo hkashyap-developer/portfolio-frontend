@@ -8,7 +8,7 @@ import Header from "@/components/header/header"
 import Footer from "@/components/footer/footer"
 
 import Homehero from '@/components/home-hero/home-hero'
-import Categories from '@/components/categories/four-x-two'
+import Categories from '@/components/categories/fourxtwo'
 
 
 const EVENTS_QUERY = `*[_type == "event"]{_id, name, slug, date}|order(date desc)`;
