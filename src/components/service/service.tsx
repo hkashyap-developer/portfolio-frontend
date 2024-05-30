@@ -41,7 +41,7 @@ export default function CardDemo({ className, ...props }: CardProps) {
 <Image className="rounded" src={ServiceImage} width="100%" height="100%"/>
 
       <CardHeader>
-        <CardTitle className="text-center text-yellow-600">Premium Gold Card</CardTitle>
+        <CardTitle className="text-center text-thin text-pink-800">Premium Gold Card</CardTitle>
         <CardDescription className="text-center">Gold card is available for exclusive members.</CardDescription>
       </CardHeader>
       <CardContent className="grid gap-4">

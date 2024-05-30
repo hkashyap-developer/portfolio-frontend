@@ -4,7 +4,7 @@
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
 
-import Logo from '/public/HeroBG.jpg'
+import Logo from '/public/NishaLogo.png'
 import Image from 'next/image'
 
 
