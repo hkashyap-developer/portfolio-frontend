@@ -9,6 +9,7 @@ import Footer from "@/components/footer/footer"
 
 import Homehero from '@/components/home-hero/home-hero'
 import Categories from '@/components/categories/fourxtwo'
+import Packages from '@/components/packages/packages'
 
 
 const EVENTS_QUERY = `*[_type == "event"]{_id, name, slug, date}|order(date desc)`;
@@ -21,6 +22,7 @@ export default async function IndexPage() {
     <Header/>
     <Homehero/>
     <Categories/>
+    <Packages/>
     <Footer/>
     </>
     // <main className="flex bg-black min-h-screen flex-col p-24 gap-12">

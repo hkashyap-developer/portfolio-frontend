@@ -18,17 +18,17 @@ const Header = () => {
   </Marquee>
 
 
-    <div className="flex justify-between p-4">
+    <div className="z-10 bg-white flex justify-between p-4 sticky top-0 left-0 right-0">
         
 
 
 
-        <Image src={Logo} width="90" height="100" />
+        <Image src={Logo} width="90" height="100" alt="tsst"/>
   
 
         <Navigation/>
 
-        <Button>Button</Button>
+        <Button>Schedule a Call</Button>
 
     </div>
 
