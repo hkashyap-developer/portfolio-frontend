@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import { SanityDocument } from "next-sanity";
 
@@ -10,19 +11,23 @@ import Footer from "@/components/footer/footer"
 import Homehero from '@/components/home-hero/home-hero'
 import Categories from '@/components/categories/fourxtwo'
 import Packages from '@/components/packages/packages'
-
+import Calendly from '@/components/calendly/calendly'
 
 const EVENTS_QUERY = `*[_type == "event"]{_id, name, slug, date}|order(date desc)`;
+
+
 
 export default async function IndexPage() {
   const events = await sanityFetch<SanityDocument[]>({query: EVENTS_QUERY});
 
   return (
     <>
+
     <Header/>
     <Homehero/>
     <Categories/>
     <Packages/>
+    <Calendly/>
     <Footer/>
     </>
     // <main className="flex bg-black min-h-screen flex-col p-24 gap-12">

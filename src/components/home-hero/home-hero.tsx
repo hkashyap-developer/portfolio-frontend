@@ -29,14 +29,14 @@ export default function Component() {
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <Link
-            className="rounded-md bg-pink-900 px-3.5 py-2.5 text-sm font-medium text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+            className="rounded-md bg-pink-900 px-3.5 py-2.5 text-lg font-medium text-white shadow-sm hover:bg-pink-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
             href="#"
           >
             Book A Package
           </Link>
-          <Link className="text-sm font-medium leading-6 text-white" href="#">
+          <Link className="text-lg font-medium leading-6 text-white" href="#">
             My Portfolio&nbsp;
-            <span aria-hidden="true">→</span>
+            <span aria-hidden="true"></span>
           </Link>
         </div>
       </div>

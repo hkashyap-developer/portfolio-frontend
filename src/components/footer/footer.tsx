@@ -7,7 +7,13 @@ import Link from "next/link"
 
 export default function Component() {
   return (
-    <footer className="bg-gray-100 py-6 dark:bg-gray-800">
+    <footer className="bg-gray-100 py-6 dark:bg-gray-800 pt-20 pb-20">
+
+
+      <div className="text-4xl container mx-auto flex items-center justify-between px-4 pb-10 sm:px-6">
+        Built in Chandigarh ❤️
+      </div>
+
       <div className="container mx-auto flex items-center justify-between px-4 sm:px-6">
         <p className="text-sm text-gray-500 dark:text-gray-400">© 2024 Acme Inc. All rights reserved.</p>
         <nav className="flex items-center space-x-4">
